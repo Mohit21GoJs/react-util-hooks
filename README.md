@@ -12,4 +12,7 @@ Monorepo for utiliity hooks in React 16.9+
 * useReducerWithQuery
 * useDebounce
 * useThrottle
+* useAsyncWithError
+* useQueue
+* useStack
 
