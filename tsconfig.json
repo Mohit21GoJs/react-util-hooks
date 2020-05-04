@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@react-util-hooks/use-state-with-querry": ["use-state-with-query/src"],
+      "@react-util-hooks/*": ["*/src"]
+    }
+  }
+}
