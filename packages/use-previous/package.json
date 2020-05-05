@@ -1,9 +1,26 @@
 {
   "name": "@react-util-hooks/use-previous",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
+    "rollup": "^2.7.6",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-typescript2": "^0.27.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "keywords": ["use-previous", "previous ref"],
+  "author": "Mohit Yadav<mohit.developer21@gmail.com>",
+  "license": "MIT"
 }
