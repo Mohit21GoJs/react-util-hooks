@@ -5,6 +5,7 @@
     "baseUrl": "./packages",
     "paths": {
       "@react-util-hooks/use-state-with-querry": ["use-state-with-query/src"],
+      "@react-util-hooks/use-previous": ["use-previous/src"],
       "@react-util-hooks/*": ["*/src"]
     }
   }
