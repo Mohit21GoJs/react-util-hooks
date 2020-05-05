@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks'
-import usePrevious from '../index'
+import usePrevious from '../src/index'
 import { useState, useEffect } from 'react'
 
 describe('usePrevious', () => {
